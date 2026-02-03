@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portofolio | Nama Kamu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="glow"></div>
+
+  <header class="hero" id="top">
+    <nav class="nav">
+      <div class="brand">Nama Kamu</div>
+      <div class="nav-links">
+        <a href="#about">Tentang</a>
+        <a href="#work">Proyek</a>
+        <a href="#skills">Keahlian</a>
+        <a href="#contact">Kontak</a>
+      </div>
+      <button class="btn outline" id="themeToggle" aria-label="Toggle accent">Accent</button>
+    </nav>
+
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Creative Technologist</p>
+        <h1>
+          Desain gelap yang hidup,
+          <span class="accent">interaksi</span> yang berani.
+        </h1>
+        <p class="lead">
+          Aku membangun pengalaman web modern, dinamis, dan berfokus pada detail.
+          Portofolio ini adalah playground untuk ide-ide yang ekspresif dan elegan.
+        </p>
+        <div class="cta">
+          <a class="btn" href="#work">Lihat Proyek</a>
+          <button class="btn ghost" id="playDemo">Mainkan Mode Dinamis</button>
+        </div>
+        <div class="stats">
+          <div>
+            <div class="stat-num" data-count="7">0</div>
+            <div class="stat-label">Tahun Eksperimen</div>
+          </div>
+          <div>
+            <div class="stat-num" data-count="24">0</div>
+            <div class="stat-label">Produk Dirilis</div>
+          </div>
+          <div>
+            <div class="stat-num" data-count="12">0</div>
+            <div class="stat-label">Kolaborasi</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="orb"></div>
+        <div class="ring"></div>
+        <div class="cards">
+          <div class="card" data-tilt>
+            <p class="mono">2026 / UX Lab</p>
+            <h3>Neon Ledger</h3>
+            <p class="muted">Dashboard finansial dengan sinyal real-time.</p>
+          </div>
+          <div class="card" data-tilt>
+            <p class="mono">2025 / AI Studio</p>
+            <h3>Pulse Atlas</h3>
+            <p class="muted">Visualisasi data spasial adaptif.</p>
+          </div>
+          <div class="card" data-tilt>
+            <p class="mono">2024 / Motion</p>
+            <h3>Darkroom</h3>
+            <p class="muted">Sistem branding interaktif.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section about">
+      <div class="section-head">
+        <p class="eyebrow">Tentang</p>
+        <h2>Gaya kerja yang fokus pada narasi visual.</h2>
+      </div>
+      <div class="about-grid">
+        <p>
+          Aku menggabungkan strategi, desain, dan rekayasa untuk menciptakan produk yang
+          terasa hidup. Fokusku pada animasi, micro-interaction, dan kejelasan informasi.
+        </p>
+        <p>
+          Toolset favorit: HTML, CSS, JavaScript, motion systems, dan prototyping cepat.
+          Selalu mencari cara baru untuk membuat pengalaman digital yang lebih emosional.
+        </p>
+        <div class="tag-list">
+          <span>UI Motion</span>
+          <span>Creative Code</span>
+          <span>Product Strategy</span>
+          <span>Design Systems</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section work">
+      <div class="section-head">
+        <p class="eyebrow">Proyek Terpilih</p>
+        <h2>Eksperimen yang mendorong batas.</h2>
+      </div>
+      <div class="work-grid">
+        <article class="work-card" data-reveal>
+          <div class="work-top">
+            <p class="mono">2026 • Web App</p>
+            <h3>Nightshift Control</h3>
+          </div>
+          <p>Kontrol pusat untuk operasi global dengan visualisasi gelombang data.</p>
+          <button class="btn ghost">Lihat Studi Kasus</button>
+        </article>
+        <article class="work-card" data-reveal>
+          <div class="work-top">
+            <p class="mono">2025 • Identity</p>
+            <h3>Gravity Studio</h3>
+          </div>
+          <p>Branding generatif untuk tim riset teknologi imersif.</p>
+          <button class="btn ghost">Lihat Studi Kasus</button>
+        </article>
+        <article class="work-card" data-reveal>
+          <div class="work-top">
+            <p class="mono">2024 • Commerce</p>
+            <h3>Void Market</h3>
+          </div>
+          <p>Platform e-commerce dengan layout modular dan animasi tegas.</p>
+          <button class="btn ghost">Lihat Studi Kasus</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <div class="section-head">
+        <p class="eyebrow">Keahlian</p>
+        <h2>Stack dan kemampuan inti.</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-block">
+          <h3>Design</h3>
+          <p>UI/UX, prototyping cepat, sistem desain, art direction.</p>
+        </div>
+        <div class="skill-block">
+          <h3>Engineering</h3>
+          <p>HTML, CSS, JavaScript, animasi web, creative coding.</p>
+        </div>
+        <div class="skill-block">
+          <h3>Collaboration</h3>
+          <p>Workshop, product discovery, roadmap, stakeholder sync.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="section-head">
+        <p class="eyebrow">Kontak</p>
+        <h2>Mari berkolaborasi.</h2>
+      </div>
+      <div class="contact-box">
+        <p>Siap untuk proyek baru, diskusi kreatif, atau kolaborasi jangka panjang.</p>
+        <div class="contact-actions">
+          <a class="btn" href="mailto:hello@namakamu.com">hello@namakamu.com</a>
+          <button class="btn outline" id="copyEmail">Salin Email</button>
+        </div>
+        <div class="socials">
+          <a href="#">Behance</a>
+          <a href="#">Dribbble</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Nama Kamu. Dibuat dengan rasa gelap yang elegan.</p>
+    <a href="#top">Kembali ke atas</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
